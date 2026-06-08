@@ -203,9 +203,9 @@ h1{
     width:85px;
   }
 
-  /* 只隱藏兩張最擠的 */
+  /* 隱藏最擠的一張 */
 
-  .sticker-4,{
+  .sticker-4{
     display:none;
   }
 
@@ -253,6 +253,16 @@ h1{
     right:10px;
   }
 
+  /* 放到標題上方 */
+
+  .sticker-9{
+    top:20px;
+    right:120px;
+
+    bottom:auto;
+    left:auto;
+  }
+
   .sticker-11{
     width:95px;
 
@@ -262,8 +272,5 @@ h1{
 
     transform:rotate(8deg);
   }
-  .sticker-9{
-  top: 20px;
-  right: 120px;
-  }
+
 }
