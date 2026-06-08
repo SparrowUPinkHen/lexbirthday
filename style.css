@@ -206,7 +206,12 @@ h1{
   /* 隱藏最擠的一張 */
 
   .sticker-4{
-    display:none;
+  display:block;
+
+  width:85px;
+
+  bottom:20px;
+  left:40px;
   }
 
   /* 左邊 */
@@ -256,11 +261,16 @@ h1{
   /* 放到標題上方 */
 
   .sticker-9{
-    top:20px;
-    right:120px;
 
-    bottom:auto;
-    left:auto;
+  width:110px;
+
+  top:60px;
+  right:150px;
+
+  bottom:auto;
+  left:auto;
+
+  transform:rotate(-8deg);
   }
 
   .sticker-11{
