@@ -203,17 +203,6 @@ h1{
     width:85px;
   }
 
-  /* 隱藏最擠的一張 */
-
-  .sticker-4{
-  display:block;
-
-  width:85px;
-
-  bottom:20px;
-  left:40px;
-  }
-
   /* 左邊 */
 
   .sticker-1{
@@ -228,6 +217,17 @@ h1{
 
   .sticker-3{
     bottom:80px;
+    left:5px;
+  }
+
+  /* 左下最左 */
+
+  .sticker-4{
+    display:block;
+
+    width:85px;
+
+    bottom:20px;
     left:5px;
   }
 
@@ -253,24 +253,24 @@ h1{
     right:5px;
   }
 
-  .sticker-10{
-    top:330px;
-    right:10px;
-  }
-
-  /* 放到標題上方 */
+  /* Happy Birthday 上方偏左 */
 
   .sticker-9{
 
-  width:110px;
+    width:135px;
 
-  top:60px;
-  right:150px;
+    top:95px;
+    right:200px;
 
-  bottom:auto;
-  left:auto;
+    bottom:auto;
+    left:auto;
 
-  transform:rotate(-8deg);
+    transform:rotate(-10deg);
+  }
+
+  .sticker-10{
+    top:330px;
+    right:10px;
   }
 
   .sticker-11{
