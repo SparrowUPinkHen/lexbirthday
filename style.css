@@ -1,0 +1,176 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  overflow-x:hidden;
+
+  background:
+  radial-gradient(
+  circle at top,
+  #78b5ff,
+  #2956b8 40%,
+  #08142f 100%);
+
+  min-height:100vh;
+}
+
+.birthday-page{
+  position:relative;
+
+  min-height:100vh;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  padding:50px 20px;
+}
+
+h1{
+
+  color:white;
+
+  font-size:72px;
+
+  margin-bottom:15px;
+
+  text-align:center;
+
+  text-shadow:
+  0 0 25px rgba(255,255,255,.5),
+  0 0 60px rgba(120,180,255,.5);
+
+}
+
+.subtitle{
+
+  color:#dce9ff;
+
+  font-size:24px;
+
+  text-align:center;
+
+  margin-bottom:50px;
+
+}
+
+.video-box {
+
+  margin-top: 50px;
+
+  width: 80%;
+  max-width: 900px;
+
+  height: 500px;
+
+  border-radius: 35px;
+
+  background: rgba(255,255,255,.08);
+
+  backdrop-filter: blur(15px);
+
+  border: 2px solid rgba(255,255,255,.2);
+
+  box-shadow:
+    0 0 40px rgba(120,180,255,.3);
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.video-box video {
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  border-radius: 35px;
+}
+
+.video-placeholder{
+
+  color:white;
+
+  font-size:32px;
+
+  font-weight:bold;
+
+}
+.sticker {
+  position: absolute;
+  width: 140px;
+  animation: float 5s ease-in-out infinite;
+
+  border-radius: 20px;
+  mix-blend-mode: screen;
+}
+
+/* 左上 */
+.sticker-1 {
+  top: 20px;
+  left: 20px;
+}
+
+/* 左中 */
+.sticker-2 {
+  top: 220px;
+  left: 20px;
+}
+
+/* 左下 */
+.sticker-3 {
+  bottom: 80px;
+  left: 20px;
+}
+
+/* 左下2 */
+.sticker-4 {
+  bottom: 20px;
+  left: 180px;
+}
+
+/* 標題左側 */
+.sticker-5 {
+  top: 120px;
+  left: 250px;
+}
+
+/* 右上 */
+.sticker-6 {
+  top: 20px;
+  right: 20px;
+}
+
+/* 右中 */
+.sticker-7 {
+  top: 220px;
+  right: 20px;
+}
+
+/* 右下 */
+.sticker-8 {
+  bottom: 80px;
+  right: 20px;
+}
+
+/* 右下2 */
+.sticker-9 {
+  bottom: 20px;
+  right: 180px;
+}
+
+/* 標題右側 */
+.sticker-10 {
+  top: 120px;
+  right: 260px;
+}
+
+.sticker-11 {
+  width: 170px;
+
+  top: 450px;
+  right: 100px;
+
+  transform: rotate(12deg);
+}
