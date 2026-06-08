@@ -205,8 +205,7 @@ h1{
 
   /* 只隱藏兩張最擠的 */
 
-  .sticker-4,
-  .sticker-9{
+  .sticker-4,{
     display:none;
   }
 
@@ -263,5 +262,8 @@ h1{
 
     transform:rotate(8deg);
   }
-
+  .sticker-9{
+  top: 20px;
+  right: 120px;
+  }
 }
